@@ -7,9 +7,9 @@ defineModule(sim, list(
                       "fire escape component of a landscape fire model (e.g., fireSense)."),
   keywords = c("escape probability", "fire frequency", "logistic", "fireSense"),
   authors = c(
+    person("Eliot", "McIntire", role = c("aut", "cre"), email = "eliot.mcintire@nrcan-rncan.gc.ca"),
+    person("Ian", "Eddy", role = "aut", email = "ian.eddy@nrcan-rncan.gc.ca"),
     person("Jean", "Marchal", email = "jean.d.marchal@gmail.com", role = "aut"),
-    person("Ian", "Eddy", role = c("aut", "cre"), email = "ian.eddy@nrcan-rncan.gc.ca"),
-    person("Eliot", "McIntire", role = "aut", email = "eliot.mcintire@nrcan-rncan.gc.ca"),
     person("Alex M", "Chubaty", role = "ctb", email = "achubaty@for-cast.ca")
   ),
   childModules = character(0),
