@@ -1,7 +1,7 @@
 ---
 title: "fireSense_EscapePredict Manual"
-subtitle: "v.0.0.1"
-date: "Last updated: 2025-04-08"
+subtitle: "v.1.0.0.9001"
+date: "Last updated: 2026-09-24"
 output:
   bookdown::html_document2:
     toc: true
@@ -30,7 +30,7 @@ always_allow_html: true
 
 #### Authors:
 
-Jean Marchal <jean.d.marchal@gmail.com> [aut], Ian Eddy <ian.eddy@nrcan-rncan.gc.ca> [aut, cre], Eliot McIntire <eliot.mcintire@nrcan-rncan.gc.ca> [aut], Alex M Chubaty <achubaty@for-cast.ca> [ctb]
+Eliot McIntire <eliot.mcintire@nrcan-rncan.gc.ca> [aut, cre], Ian Eddy <ian.eddy@nrcan-rncan.gc.ca> [aut], Jean Marchal <jean.d.marchal@gmail.com> [aut], Alex M Chubaty <achubaty@for-cast.ca> [ctb]
 <!-- ideally separate authors with new lines, '\n' not working -->
 
 ## Module Overview
@@ -49,7 +49,7 @@ If `sourceURL` is specified, `downloadData("fireSense_EscapePredict", "..")` may
 
 Table \@ref(tab:moduleInputs-fireSense-EscapePredict) shows the full list of module inputs.
 
-<table class="table" style="color: black; margin-left: auto; margin-right: auto;">
+<table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>(\#tab:moduleInputs-fireSense-EscapePredict)(\#tab:moduleInputs-fireSense-EscapePredict)List of (ref:fireSense-EscapePredict) input objects and their description.</caption>
  <thead>
   <tr>
@@ -84,7 +84,7 @@ Table \@ref(tab:moduleInputs-fireSense-EscapePredict) shows the full list of mod
 Summary of user-visible parameters (Table \@ref(tab:moduleParams-fireSense-EscapePredict))
 
 
-<table class="table" style="color: black; margin-left: auto; margin-right: auto;">
+<table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>(\#tab:moduleParams-fireSense-EscapePredict)(\#tab:moduleParams-fireSense-EscapePredict)List of (ref:fireSense-EscapePredict) parameters and their description.</caption>
  <thead>
   <tr>
@@ -130,6 +130,14 @@ Summary of user-visible parameters (Table \@ref(tab:moduleParams-fireSense-Escap
    <td style="text-align:left;"> optional. Interval between save events. </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> .studyAreaName </td>
+   <td style="text-align:left;"> character </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> Human-readable name for the study area used. </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> .useCache </td>
    <td style="text-align:left;"> logical </td>
    <td style="text-align:left;"> FALSE </td>
@@ -159,7 +167,7 @@ Write what is saved.
 
 Description of the module outputs (Table \@ref(tab:moduleOutputs-fireSense-EscapePredict)).
 
-<table class="table" style="color: black; margin-left: auto; margin-right: auto;">
+<table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>(\#tab:moduleOutputs-fireSense-EscapePredict)(\#tab:moduleOutputs-fireSense-EscapePredict)List of (ref:fireSense-EscapePredict) outputs and their description.</caption>
  <thead>
   <tr>
