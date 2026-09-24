@@ -37,6 +37,6 @@ test_that("parameters are the expected names", {
   expect_identical(
     sort(md$parameters$paramName),
     sort(c(".runInitialTime", ".runInterval", ".saveInitialTime", ".saveInterval",
-           ".useCache"))
+           ".studyAreaName", ".useCache"))
   )
 })

@@ -1,3 +1,7 @@
+# fireSense_EscapePredict (development version)
+
+- New parameter `.studyAreaName` (default `NA`), the name PredictiveEcology modules use for the study area. This module does not use it yet.
+
 # fireSense_EscapePredict 1.0.0
 
 First release from `development` since `master` was last updated (2022-06-29). Full history: https://github.com/PredictiveEcology/fireSense_EscapePredict/compare/9b9948c...v1.0.0
